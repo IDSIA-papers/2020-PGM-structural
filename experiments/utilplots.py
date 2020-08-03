@@ -1,4 +1,8 @@
-def plot(data, x_column, y_column, series_column, transformation=None, ax=None, 
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
+def plot(data, x_column, y_column, series_column, transformation=None, ax=None,
          ylabel=None, xlabel=None, title=None, legend=True, linecolors = None):
 
     ax = ax or plt.figure(figsize=(10, 8), dpi= 80, facecolor='w', edgecolor='k').gca()

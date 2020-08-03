@@ -11,3 +11,25 @@ shown in the paper.
 the numerical tests given.
 
 
+## Run code examples
+
+First, run the following  command in a terminal:
+
+```bash
+mvn clean package
+```
+
+This should create the file target/experiments.jar containing all the dependencies.
+Then for running any of the examples, let's say ./examples/Example9.java, run:
+
+```
+java -cp target/experiments.jar ./examples/Example9.java
+```
+
+
+## Run experiments
+
+
+python -m jupyter notebook .
+
+## Requirements

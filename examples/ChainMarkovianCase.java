@@ -1,4 +1,3 @@
-
 import ch.idsia.credici.model.predefined.RandomChainMarkovian;
 import ch.idsia.crema.factor.bayesian.BayesianFactor;
 import ch.idsia.crema.factor.credal.linear.IntervalFactor;

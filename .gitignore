@@ -25,6 +25,7 @@ target/
 # python
 
 *.ipynb_checkpoints*
+*__pycache__/
 
 
 

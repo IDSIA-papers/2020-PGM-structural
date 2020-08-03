@@ -1,4 +1,3 @@
-
 import ch.idsia.credici.model.CausalOps;
 import ch.idsia.crema.factor.bayesian.BayesianFactor;
 import ch.idsia.crema.factor.convert.BayesianToVertex;
