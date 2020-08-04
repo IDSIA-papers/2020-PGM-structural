@@ -45,15 +45,17 @@ _Requirements_: python3 and packages in requirements.txt (pip install -r require
 
 ## Citation
 
+Pre-print version: https://arxiv.org/abs/2008.00463
+
 ```
-@misc{zaffalon2020structural,
-    title={Structural Causal Models Are (Solvable by) Credal Networks},
-    author={Marco Zaffalon and Alessandro Antonucci and Rafael Caba\~{n}as},
-    year={2020},
-    eprint={2008.00463},
-    archivePrefix={arXiv},
-    primaryClass={cs.AI}
+@InProceedings{zaffalon2020structural,
+  author    = {Zaffalon, Marco and Antonucci, Alessandro and Caba\~{n}as, Rafael},
+  title     = {Structural Causal Models Are (Solvable by) Credal Networks},
+  booktitle = {Proceedings of the tenth International Conference on Probabilistic Graphical Models},
+  year      = {2020},
+  series    = {Proceedings of Machine Learning Research},
+  address   = {Aalborg, Denmark},
+  month     = {23--25 Sep},
+  publisher = {PMLR},
 }
-
-
 ```
